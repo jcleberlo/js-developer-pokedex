@@ -1,0 +1,216 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border-radius: 2rem 2rem 3rem 3rem;
+    align-items: center;
+}
+
+.pokemons {
+    padding: 0;
+    margin: 0;
+    height: auto;
+    border-radius: 2rem 2rem 3rem 3rem;
+    align-items: center;
+}
+
+@media screen and (min-width: 576px) {
+    .content {
+        max-width: 576px;
+        margin: 1rem auto;
+    }
+}
+
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}
+
+.pokemon {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    border-radius: 3rem;
+}
+
+.pokemon .number {
+    text-align: right;
+    font-weight: bold;
+    margin: 0 1rem;
+    padding: 0 1rem;
+    font-size: 1rem;
+}
+
+.pokemon .name {
+    padding: 1rem 0 0 1rem;
+    margin: 1rem 0 0 1rem;
+    text-transform: capitalize;
+}
+
+.pokemon .firstPart {
+    display: flex;
+    flex-direction: column;
+    margin: 0 0 1rem 1rem;
+    padding: 0 0 1rem 1rem;
+}
+
+.pokemon img {
+    max-width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 60rem;
+}
+
+.pokemon .types {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0 0 1rem 1rem;
+    padding: 0 0 1rem 1rem;
+}
+
+.pokemon .types .type {
+    margin: 0 1rem 0 0;
+    padding: .5rem 1rem;
+    filter: brightness(1.1);
+    border-radius: 1rem;
+    font-size: .8rem;
+}
+
+.pokemon .secondPart {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    border-style: outset;
+    border-radius: 3rem;
+    background-color: #fff;
+    color: #000;
+    height: 100vh;
+}
+
+.pokemon .secondPart .about {
+    margin: 1rem;
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+
+.pokemon .secondPart .characteristics {
+    display: flex;
+    flex-direction: row;
+    font-size: 1.5rem;
+    background-color: #f6f8fc;
+    margin: 0 1rem;
+    padding: 1rem;
+    border-style: inset;
+    border-radius: 2rem;
+    justify-content: space-between;
+}
+
+.pokemon .secondPart .characteristics .left {
+    list-style: none;
+    font-weight: bold;
+    padding: 0 0 0 2rem;
+}
+
+.pokemon .secondPart .characteristics .right {
+    list-style: none;
+    padding: 0 2rem 0 0;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+}
+
+.pagination button {
+    padding: .25rem .5rem;
+    background-color: #6c79db;
+    color: #fff;
+    border: none;
+    border-radius: 1rem;
+    cursor: pointer;
+    margin-right: auto;
+    margin-left: auto;
+}
