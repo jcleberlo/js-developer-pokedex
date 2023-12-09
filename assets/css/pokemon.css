@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: #f6f8fc;
+    background-color: #eaecf1;;
 }
 
 .content {
@@ -162,7 +162,6 @@ body {
     flex-direction: column;
     margin: 0;
     padding: 0;
-    border-style: outset;
     border-radius: 3rem;
     background-color: #fff;
     color: #000;
@@ -179,10 +178,9 @@ body {
     display: flex;
     flex-direction: row;
     font-size: 1.5rem;
-    background-color: #f6f8fc;
+    background-color: #eaecf1;;
     margin: 0 1rem;
     padding: 1rem;
-    border-style: inset;
     border-radius: 2rem;
     justify-content: space-between;
 }
